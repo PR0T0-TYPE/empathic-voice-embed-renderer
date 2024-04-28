@@ -23,11 +23,10 @@ export const ErrorScreen: FC<ErrorScreenProps> = ({
           return (
             <>
               <Balancer className="text-center text-2xl font-medium">
-                Our demo is at capacity right now
+                Ah.. Wait a second
               </Balancer>
               <Balancer className="text-center">
-                Try refreshing the page. We're working hard to make sure
-                everyone can chat with our empathic voice AI.
+                I'm having an important call. Be right Back !
               </Balancer>
             </>
           );
@@ -36,7 +35,7 @@ export const ErrorScreen: FC<ErrorScreenProps> = ({
           return (
             <>
               <Balancer className="text-center text-xl font-medium">
-                We were unable to connect to a microphone
+                I am unable to connect to your microphone
               </Balancer>
               <Balancer className="text-center">
                 Please enable microphone permissions on your browser and try
@@ -61,7 +60,7 @@ export const ErrorScreen: FC<ErrorScreenProps> = ({
           return (
             <>
               <Balancer className="text-center text-xl font-medium">
-                Sorry, something went wrong and we had to end your session.
+                Sorry, something went wrong and we had to end the interview.
               </Balancer>
               <Balancer className="text-center">
                 Error reason: {errorReason}
