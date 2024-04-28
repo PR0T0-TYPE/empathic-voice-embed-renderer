@@ -19,7 +19,7 @@ export const ConversationScreen = () => {
         isPlaying={isPlaying}
         prosody={lastVoiceMessage?.models.prosody?.scores ?? {}}
         width={400}
-        height={frameSize.height - 100}
+        height={frameSize.height - 20}
       />
       <Backdrop
         prosody={lastVoiceMessage?.models.prosody?.scores ?? {}}

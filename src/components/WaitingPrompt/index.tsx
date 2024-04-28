@@ -54,7 +54,7 @@ export const WaitingPrompt = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 1, ease: 'easeInOut' }}
             className={cn(
-              'mt-12 rounded-full bg-tan-200/50 px-3 py-1',
+              'mt-12 rounded-full bg-tan-200/50 px-3 py-1 gap-2',
               isShortFrame ? 'mt-12' : 'mt-20',
             )}
           >
